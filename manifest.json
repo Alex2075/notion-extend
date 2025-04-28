@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Extension for Notion",
+  "version": "1.0",
+  "description": "Expand && save notes as html",
+  "icons": {
+    "48": "icons/logo-48.png"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/btn-32.png",
+    "default_title": "Extension for Notion",
+    "default_popup": "popup/notion.html"
+  },
+
+"content_scripts": [
+    {
+      "matches": ["*://*.notion.site/*"],
+      "js": ["inline.js"]
+    }
+  ]  
+}
+
