@@ -15,7 +15,7 @@
     "default_popup": "popup/notion.html"
   },
 
-"content_scripts": [
+  "content_scripts": [
     {
       "matches": ["*://*.notion.site/*"],
       "js": ["inline.js"]
