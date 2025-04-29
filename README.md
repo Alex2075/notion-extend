@@ -1,7 +1,8 @@
-Simple browser extension for Notion.
+### Simple Firefox extension for Notion
+
+![Demo Animation](../assets/screen3.png?raw=true)
 
 There are some features:
 
-- Expand
-- Collapse
-- Save
+![Demo Animation](../assets/screen4.png?raw=true)
+
