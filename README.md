@@ -6,7 +6,7 @@ There are some features:
 
 ![Demo Animation](../assets/screen4.png?raw=true)
 
-** Install **
+**Install**
 
 Firefox:
 
