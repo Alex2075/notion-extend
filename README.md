@@ -11,7 +11,7 @@ There are some features:
 Firefox:
 
 1. ```about:debugging -> This Firefox -> Load Temporary Add-on...```
-2. Load ```manifest.json```
+2. Load ```manifest.json``` from ```Firefox``` directory
 
 Chrome:
 
