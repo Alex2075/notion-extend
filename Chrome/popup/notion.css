@@ -1,0 +1,58 @@
+html,
+body {
+  width: 100px;
+}
+
+button[class="expand"] {
+  background:url('../icons/expand-32.png') no-repeat left center;
+}
+
+button[class="collapse"] {
+  background:url('../icons/collapse-32.png') no-repeat left center;
+}
+
+button[class="save"] {
+  background:url('../icons/save-32.png') no-repeat left center;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: none;
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 4%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 0.8em;
+  cursor: pointer;
+  background-color: #e5f2f2;
+}
+
+button:hover {
+  background-color: #cff2f2;
+}
+
+div[class="txt"]{
+  margin: 4px auto;
+  text-align: center;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color:#191919;
+      color: rgba(255, 255, 255, 0.81);
+  }
+  button {
+    color: white;
+    background-color:rgba(135, 131, 120, 0.15);
+  }
+  button:hover {
+    background-color: rgba(135, 131, 120, 0.75);
+  }
+}
